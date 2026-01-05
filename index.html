@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이제인 - Portfolio</title>
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="dots">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <h1 class="logo">Luxe</h1>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#service">Service</a></li>
+                        <li><a href="#portfolio">Portofolio</a></li>
+                        <li><a href="#how-we-work">How we work</a></li>
+                    </ul>
+                    <button class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </nav>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <ul class="mobile-nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#portfolio">Portofolio</a></li>
+                <li><a href="#how-we-works">How we works</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="greeting">Hi, there!</p>
+                    <h2 class="hero-title">
+                        <span class="luxe-text">이제인</span> IS HERE TO BE YOUR ASSISTANCE
+                    </h2>
+                    <p class="hero-subtitle">I am here ready to help you in making creative digital products</p>
+                    <button class="cta-button">Let's Discuss</button>
+                </div>
+                <div class="hero-visual">
+                    <div class="abstract-shapes">
+                        <div class="pink-shape"></div>
+                        <div class="blue-shape"></div>
+                        <div class="dots-decoration">
+                            <span class="decoration-dot"></span>
+                            <span class="decoration-dot"></span>
+                            <span class="decoration-dot"></span>
+                            <span class="decoration-dot"></span>
+                            <span class="decoration-dot"></span>
+                            <span class="decoration-dot"></span>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="floating-cards">
+                            <div class="floating-card card-1">
+                                <div class="card-icon monitor-icon">📺</div>
+                                <p class="card-text">2K+ Projects</p>
+                            </div>
+                            <div class="floating-card card-2">
+                                <div class="card-icon star-icon">⭐</div>
+                                <p class="card-text">4.8 Satisfaction</p>
+                            </div>
+                            <div class="floating-card card-3">
+                                <div class="card-icon person-icon">👤</div>
+                                <p class="card-text">Product Designer</p>
+                            </div>
+                        </div>
+                        <div class="person-placeholder">
+                            <div class="person-face">
+                                <div class="glasses">
+                                    <div class="lens"></div>
+                                    <div class="lens"></div>
+                                </div>
+                                <div class="smile"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Service Section -->
+    <section class="services" id="service">
+        <div class="container">
+            <h2 class="section-title">OUR SERVICE</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon branding-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="3" y="3" width="7" height="7" rx="1" fill="currentColor"/>
+                            <rect x="14" y="3" width="7" height="7" rx="1" fill="currentColor"/>
+                            <rect x="3" y="14" width="7" height="7" rx="1" fill="currentColor"/>
+                            <rect x="14" y="14" width="7" height="7" rx="1" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Branding</h3>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon ux-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 3L3 8L12 13L21 8L12 3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M3 16L12 21L21 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M3 12L12 17L21 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">UI/UX</h3>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon product-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="2"/>
+                            <path d="M7 8H17M7 12H17M7 16H12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Product Design</h3>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/menu.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
